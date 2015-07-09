@@ -13,6 +13,7 @@
 		2D0C0E4F1B4E6E4D007E0470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C0E4E1B4E6E4D007E0470 /* Images.xcassets */; };
 		2D0C0E521B4E6E4D007E0470 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C0E501B4E6E4D007E0470 /* LaunchScreen.xib */; };
 		2D0C0E5E1B4E6E4D007E0470 /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C0E5D1B4E6E4D007E0470 /* Cat_YearsTests.swift */; };
+		2D0C0E681B4E7063007E0470 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C0E671B4E7063007E0470 /* cat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2D0C0E571B4E6E4D007E0470 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0C0E5C1B4E6E4D007E0470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D0C0E5D1B4E6E4D007E0470 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
+		2D0C0E671B4E7063007E0470 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				2D0C0E471B4E6E4D007E0470 /* AppDelegate.swift */,
 				2D0C0E491B4E6E4D007E0470 /* ViewController.swift */,
 				2D0C0E4B1B4E6E4D007E0470 /* Main.storyboard */,
+				2D0C0E671B4E7063007E0470 /* cat.jpeg */,
 				2D0C0E4E1B4E6E4D007E0470 /* Images.xcassets */,
 				2D0C0E501B4E6E4D007E0470 /* LaunchScreen.xib */,
 				2D0C0E451B4E6E4D007E0470 /* Supporting Files */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0C0E681B4E7063007E0470 /* cat.jpeg in Resources */,
 				2D0C0E4D1B4E6E4D007E0470 /* Main.storyboard in Resources */,
 				2D0C0E521B4E6E4D007E0470 /* LaunchScreen.xib in Resources */,
 				2D0C0E4F1B4E6E4D007E0470 /* Images.xcassets in Resources */,
