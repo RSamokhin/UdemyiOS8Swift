@@ -10,13 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var myLabel: UILabel!
+git    @IBOutlet weak var myLabel: UILabel!
+    @IBAction func buttonPressed(sender: AnyObject) {
+        myLabel.text = "New label text";
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        myLabel.text = "New labele text";
         
         println("Hello world!");
     }
