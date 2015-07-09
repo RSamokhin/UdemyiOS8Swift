@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-git    @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var myLabel: UILabel!
     @IBAction func buttonPressed(sender: AnyObject) {
         myLabel.text = "New label text";
     }
