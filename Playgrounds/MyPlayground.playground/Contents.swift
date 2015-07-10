@@ -71,6 +71,16 @@ arrayss
 var ageMy = "age"
 myString = "my name is \(dict[nameMy]!), my age is \(dict[ageMy]!)"
 
+var reminder = 9 % 2
+
+var f = 5.2
+if f != Int(f) {
+    println("f is not int")
+} else if  f % 2 == 1 {
+    println("od d")
+} else {
+println("even")
+}
 
 
 
