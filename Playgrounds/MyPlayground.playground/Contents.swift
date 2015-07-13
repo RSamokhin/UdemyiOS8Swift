@@ -82,6 +82,11 @@ if f == Int(f) {
 println("even")
 }
 
+var random = arc4random_uniform(100)
+
+
+
+
 
 
 
