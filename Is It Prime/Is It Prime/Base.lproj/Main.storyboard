@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Is_It_Prime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Is It Prime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMh-Hu-tG7">
+                                <rect key="frame" x="208" y="104" width="118" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="aIH-kf-jrK"/>
+                                    <constraint firstAttribute="height" constant="34" id="nKf-Oe-3NL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter a number in the box" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tt4-P4-3Wu">
+                                <rect key="frame" x="213" y="163" width="214" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="Tuu-Uw-jbx"/>
+                                    <constraint firstAttribute="height" constant="21" id="xSt-GO-dZ6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Eg. 17" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHW-Zs-LlZ">
+                                <rect key="frame" x="219" y="213" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="P6q-IC-vmy"/>
+                                    <constraint firstAttribute="width" constant="97" id="ddd-ew-SYY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPd-Io-sWC">
+                                <rect key="frame" x="213" y="251" width="111" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="a8D-LR-8vI"/>
+                                    <constraint firstAttribute="height" constant="30" id="ypG-JG-J7q"/>
+                                </constraints>
+                                <state key="normal" title="Is it Plain?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="check:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TJx-ti-gnS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wg-k2-6ew">
+                                <rect key="frame" x="223" y="261" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx2-RJ-nM1">
+                                <rect key="frame" x="156" y="38" width="225" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FHI-bk-CPS"/>
+                                    <constraint firstAttribute="width" constant="225" id="lyr-4P-R84"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jys-Be-Qmx">
+                                <rect key="frame" x="277" y="130" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FPd-Io-sWC" firstAttribute="top" secondItem="HHW-Zs-LlZ" secondAttribute="bottom" constant="15" id="1Uc-Tv-MlJ"/>
+                            <constraint firstAttribute="centerX" secondItem="HHW-Zs-LlZ" secondAttribute="centerX" id="1WV-w5-5Af"/>
+                            <constraint firstAttribute="centerX" secondItem="Tt4-P4-3Wu" secondAttribute="centerX" id="2Fk-Cd-5K4"/>
+                            <constraint firstAttribute="centerX" secondItem="KMh-Hu-tG7" secondAttribute="centerX" id="3VO-l9-Yo8"/>
+                            <constraint firstAttribute="centerX" secondItem="FPd-Io-sWC" secondAttribute="centerX" id="Cku-QZ-Pos"/>
+                            <constraint firstItem="KMh-Hu-tG7" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="Fao-mN-L9b"/>
+                            <constraint firstAttribute="centerX" secondItem="Tx2-RJ-nM1" secondAttribute="centerX" id="Fih-Xe-Ad5"/>
+                            <constraint firstItem="KMh-Hu-tG7" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="87" id="PdI-FD-4Kz"/>
+                            <constraint firstItem="Tt4-P4-3Wu" firstAttribute="top" secondItem="KMh-Hu-tG7" secondAttribute="bottom" constant="25" id="Yu6-DI-HmT"/>
+                            <constraint firstItem="KMh-Hu-tG7" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="87" id="fNB-ps-bZ4"/>
+                            <constraint firstItem="HHW-Zs-LlZ" firstAttribute="top" secondItem="Tt4-P4-3Wu" secondAttribute="bottom" constant="29" id="fV4-YA-ZPy"/>
+                            <constraint firstItem="Tx2-RJ-nM1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="18" id="m9S-pM-DaJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2wg-k2-6ew"/>
+                                <exclude reference="Jys-Be-Qmx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="guess" destination="HHW-Zs-LlZ" id="p4r-uO-GYQ"/>
+                        <outlet property="result" destination="Tx2-RJ-nM1" id="10B-dO-qp4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="434"/>
+        </scene>
+    </scenes>
+</document>
