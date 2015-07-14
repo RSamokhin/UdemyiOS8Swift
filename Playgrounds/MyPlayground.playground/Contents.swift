@@ -85,13 +85,18 @@ println("even")
 var random = arc4random_uniform(100)
 
 
+for (var i  = 0 ; i < array.count ; i++) {
+    println(i)
+}
+for  i in array   {
+    println(i);
+}
+
+for (i,x)in enumerate(array) {
+    print(i)
+    print(" ")
+    print(x)
+
+}
 
 
-
-
-
-
-
-
-
-§
