@@ -100,3 +100,28 @@ for (i,x)in enumerate(array) {
 }
 
 
+
+var fig = 49;
+
+var test = 2;
+var isSimple = true;
+while test < fig {
+    var deff = fig/test
+    if deff*test == fig {
+        isSimple = false
+        break
+    }
+    test++
+}
+println(isSimple)
+println(test)
+
+
+
+
+
+
+
+
+
+
